@@ -1,0 +1,20 @@
+{
+  "name": "mirror-website",
+  "version": "0.1.0",
+  "description": "Simple mirror website that lists and serves files from ../files",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["mirror", "files", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mime": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

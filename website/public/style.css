@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Arial, sans-serif; padding: 20px; background: #f7f7f8; color:#111 }
+main { max-width:900px; margin:0 auto }
+ul { list-style: none; padding: 0 }
+li { padding: 8px 12px; border-radius:6px; background: white; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center }
+small { color:#666 }
